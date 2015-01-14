@@ -1,0 +1,29 @@
+<?php
+include('WriteData.class.php');
+
+class DataByProject extends WriteData {
+
+	public function __construct() {
+		parent::__construct();
+		//paramters for Data.class.php
+		$this->heading_id = $this->param_value('project_id');
+		$this->data_set_heading_table = "projects";
+		$this->data_set_column_table = "employees";
+		$this->data_set_heading_column_name = "project_id";
+		$this->data_set_column_column_name = "employee_id";
+		$this->data_set_heading_order_by = 'name'; // from projects table 
+		$this->data_set_column_order_by = 'first_name'; 
+
+		//paramters for WriteData.class.php
+		$this->title = "By Project";
+		$this->indiv_data_set_title_function_var = "get_project_name_heading";
+		$this->indiv_data_set_name_heading = "Employee";
+		$this->indiv_data_set_name_data_function_var = "get_employee_name";
+
+
+	}
+
+
+}
+
+

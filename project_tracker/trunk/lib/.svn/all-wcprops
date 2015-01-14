@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/test/!svn/ver/196/project_tracker/trunk/lib
+END
+functionlib.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/test/!svn/ver/195/project_tracker/trunk/lib/functionlib.php
+END
+Data.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/test/!svn/ver/195/project_tracker/trunk/lib/Data.class.php
+END
+DataByProject.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/test/!svn/ver/195/project_tracker/trunk/lib/DataByProject.class.php
+END
+DataByEmployee.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/test/!svn/ver/195/project_tracker/trunk/lib/DataByEmployee.class.php
+END
+WriteData.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/test/!svn/ver/196/project_tracker/trunk/lib/WriteData.class.php
+END

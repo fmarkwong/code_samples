@@ -1,0 +1,21 @@
+<?php
+include('DataByEmployee.class.php');
+
+class DataByEmployeeEdit extends DataByEmployee {
+
+	function __construct() {
+		parent::__construct();
+
+	}
+
+	protected function indiv_data_set_display_row_html($row) {
+		$name_data = $this->{$this->indiv_data_set_name_data_function_var}($row);
+		$date = strtotime($row->date);
+		$date = date('m-d-y',$date);
+		return "<tr><td>$name_data</td><td>&nbsp$date&nbsp</td><td>$row->work_type_name</td><td>$row->hours_sum</td><td><button onclick='copyText()'>Edit</button></td><tr>";
+//		return "<tr><td>$name_data</td><td>$row->work_type_name</td><td>$row->hours_sum</td><tr>";
+	}	
+
+			
+
+}

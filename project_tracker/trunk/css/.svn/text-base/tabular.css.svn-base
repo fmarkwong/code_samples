@@ -1,0 +1,5 @@
+body {margin: 0; padding: 0; background: #FFF; font-family: Segoe UI; color: #505050; }
+#wrapper {margin: 50px auto; width: 900px;}
+div .tabular {display: table; border:#505050 solid 1px; padding: 5px;}
+div .tabular-row {display: table-row;}
+div .tabular-cell {display: table-cell; border:#737373 solid 1px;  padding: 5px; }

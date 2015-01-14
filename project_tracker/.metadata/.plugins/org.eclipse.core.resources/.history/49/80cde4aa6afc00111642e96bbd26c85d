@@ -1,0 +1,15 @@
+<?php
+include('DataByEmployee.class.php');
+
+class DataByEmployeeEdit extends DataByEmployee {
+	
+
+	function __construct() {
+		parent::__construct();
+	 	$this->edit_button_col = "<td><button onclick='copyText()'>blah</button></td>";
+
+	}
+
+			
+
+}
